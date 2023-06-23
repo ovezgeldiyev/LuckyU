@@ -1,0 +1,230 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    // @include hero-xxxxlg-xxxxxlg;
+}
+
+// 1380px
+@include xxxlg-xxxxlg {
+    // @include hero-xxxlg-xxxxlg;
+}
+
+// 1250px
+@include xlg-xxlg-extra {
+    // @include hero-xlg-xxlg-extra;
+}
+
+// 1180px
+@include xlg-xxlg {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    h3 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .modal {
+        &__inner {
+            width: 95%;
+            position: relative;
+            transform: translate(0);
+            top: unset;
+            left: unset;
+            margin: 50px auto;
+            height: unset;
+            padding: 100px 0;
+            max-height: unset;
+        }
+    }
+    @include header-xlg-xxlg;
+    @include area-xlg-xxlg;
+    @include footer-xlg-xxlg;
+
+}
+
+// 1024px
+@include lg-xlg {
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    h3 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .modal {
+        &__inner {
+            padding: 80px 0;
+        }
+    }
+    @include header-lg-xlg;
+    @include nav-lg-xlg;
+    @include hero-lg-xlg;
+    @include sponsors-lg-xlg;
+    @include info-lg-xlg;
+    @include footer-lg-xlg;
+
+}
+
+// 930px
+@include md-lg {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    h4 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .button {
+        &.primary {
+            padding: 12px 24px;
+        }
+    }
+    .video {
+        &__play {
+            width: 60px;
+            height: 60px;
+            &-icon {
+                width: 26px;
+                height: 30px;
+                img {
+                    max-width: 22px;
+                }
+            }
+        }
+    }
+    @include hero-md-lg;
+    @include area-md-lg;
+    @include info-md-lg;
+    @include project-md-lg;
+    @include scenes-md-lg;
+    @include gallery-md-lg;
+    @include footer-md-lg;
+}
+
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    .video {
+        &__play {
+            width: 80px;
+            height: 80px;
+            &-icon {
+                width: 36px;
+                height: 40px;
+                img {
+                    max-width: 30px;
+                }
+            }
+        }
+    }
+    @include hero-sm-md;
+    @include sponsors-sm-md;
+    @include area-sm-md;
+    @include info-sm-md;
+    @include footer-sm-md;
+
+}
+
+// 650px
+@include sm-md-extra {
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    @include area-sm-md-extra;
+    @include project-sm-md-extra;
+    @include scenes-sm-md-extra;
+    @include footer-sm-md-extra;
+
+    @include gallery-sm-md-extra;
+    @include contact-sm-md-extra;
+
+}
+
+// 540px
+@include xsm-sm {
+    .video {
+        &__play {
+            width: 50px;
+            height: 50px;
+            &-icon {
+                width: 23px;
+                height: 25px;
+                &::before {
+                    width: 4.5px;
+                }
+                &::after {
+                    width: 4.5px;
+                }
+                img {
+                    max-width: 19px;
+                }
+            }
+        }
+    }
+    .modal {
+        &__close {
+            width: 20px;
+            height: 20px;
+            right: 20px;
+            top: 20px;
+        }
+        &__inner {
+            width: 100%;
+            margin: 0;
+            padding: 60px 0;
+        }
+    }
+    @include header-xsm-sm;
+    @include nav-xsm-sm;
+    @include hero-xsm-sm;
+    @include area-xsm-sm;
+    @include project-xsm-sm;
+    @include scenes-xsm-sm;
+    
+    @include intro-xsm-sm;
+    @include gallery-xsm-sm;
+    @include contact-xsm-sm;
+
+}
+
+// 440px
+@include xxsm-xsm {
+    // @include hero-xxsm-xsm;
+}
+
+// 390px
+@include xxxsm-xxsm {
+    // @include hero-xxxsm-xxsm;
+}
